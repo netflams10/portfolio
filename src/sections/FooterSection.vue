@@ -1,5 +1,5 @@
 <template>
-  <div class="footer-container">
+  <div class="footer-container" v-motion-slide-visible-once-right>
     <div></div>
     <hr />
     <div class="footer">

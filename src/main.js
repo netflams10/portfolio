@@ -1,9 +1,8 @@
-import "bootstrap/dist/css/bootstrap.css"
-import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { createApp } from 'vue'
 import VueFeather from 'vue-feather';
 import { createStore } from 'vuex'
 import { MotionPlugin } from '@vueuse/motion'
+import LottieAnimation from "lottie-web-vue";
 import App from './App.vue'
 
 const store = createStore({
@@ -38,7 +37,6 @@ const store = createStore({
 createApp(App)
 .component(VueFeather.name, VueFeather)
 .use(store)
+.use(LottieAnimation)
 .use(MotionPlugin)
 .mount('#app')
-
-import "bootstrap/dist/js/bootstrap.js"

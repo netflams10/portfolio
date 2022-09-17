@@ -1,0 +1,14 @@
+
+.navbar {
+    border-radius: 25px 0 0 0;
+    background-color: $background-light;
+    padding: 10px 20px;
+
+    .navbar-logo__container {
+        .navbar-logo__container-link {
+            .navbar-logo__container-image {
+                border-radius: 50%;
+            }
+        }
+    }
+}

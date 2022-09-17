@@ -1,0 +1,84 @@
+@import '../components/navbar.scss';
+
+.header-container {
+    border-radius: 20px 0 10px 0;
+    margin-bottom: 30px;
+    background-color: $background-light;
+    background-image: url('assets/svgs/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    hr {
+        color: $base-text;
+        width: 98%;
+    }
+
+    .header-container__container {
+        display: flex;
+        padding: 10px 20px;
+        padding-top: 40px;
+        justify-content: center;
+        align-items: center;
+
+        .l-column {
+            width: 65%;
+        }
+
+        .s-column {
+            width: 45%;
+        }
+        .column {
+            .headings {
+                font-family: 'Paradise';
+                font-weight: bold;
+                font-size: 60px;
+                display: block;
+            }
+
+            .sub-headings {
+                font-family: 'Pacifico-Regular';
+                font-size: 18px;
+                display: block;
+            }
+
+            .header-footer {
+                display: flex;
+                padding-top: 40px;
+                flex-direction: column;
+                align-items: baseline;
+                span {
+                    display: block;
+                    font-size: 15px;
+                }
+            }
+
+            .image__container {
+                display: flex;
+                flex: 1;
+                position: relative;
+                border-width: 2px;
+                justify-content: center;
+                align-items: center;
+
+                .image__container-wrapper {
+                    display: flex;
+                    width: 200px;
+                    height: 200px;
+                    border: 1px solid $base-border;
+                    position: relative;
+
+                    .image__container-image {
+                        width: inherit;
+                        height: inherit;
+                        border-width: 0;
+                        border-color: none;
+                        position: absolute;
+                        bottom: 10px;
+                        right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

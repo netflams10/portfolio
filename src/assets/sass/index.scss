@@ -1,0 +1,30 @@
+@import './variables/fonts.scss';
+@import './variables/color.scss';
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $base-color;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $base-text;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 20px 40px;
+    @media (max-width: 400px) {
+        margin: 10px 10px;
+    }
+}
+
+@import './sections/header.scss';

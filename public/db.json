@@ -1,7 +1,7 @@
 {
     "name": "Opeyemi Segun",
     "title": "Web Developer",
-    "logo": "/assets/logo/log.png",
+    "logo": "/assets/logo/logo.jpeg",
     "stacks": [
         {"id": 1, "name": "CSS", "image": "/assets/languages/css3.png"},
         {"id": 2, "name": "Docker", "image": "/assets/languages/docker.png"},

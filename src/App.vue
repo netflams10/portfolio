@@ -28,20 +28,6 @@
   }
 </script>
 
-<style>
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: #ddd;
-    color: #331a00;
-    position: relative;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  a :hover {
-    color: #4d2600;
-  }
+<style lang="scss">
+  @import "./assets/sass/index.scss";
 </style>
