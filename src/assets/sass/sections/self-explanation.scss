@@ -1,0 +1,32 @@
+.stack-container{
+    overflow: hidden;
+    background-color: $background-light;
+    border-radius: 0 25px 0 25px;
+    margin-bottom: $margin-box-bottom;
+
+    .stacks-container__container {
+        display: flex;
+        padding: 30px 20px;
+        background-color: $background-light;
+
+        .border-end {
+            border: none;
+            border-right: 1px solid $base-border;
+        }
+    
+        .column {
+            padding: 30px 10px;
+
+            span {
+                display: block;
+                font-family: 'Paradise';
+                text-align: center;
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                font-family: 'PermanentMarker';
+            }
+        }
+    }
+}

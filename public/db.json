@@ -18,7 +18,7 @@
     ],
     "projects": [
         {"id": 1, "name": "Jamborow", "url": "https://jamborow.co.uk/", "image": "/assets/projects/jamborow.png"},
-        {"id": 2, "name": "Cubevest", "url": "http://cubevest.com", "image": "/assets/projects/cubevest.png"},
+        {"id": 2, "name": "Cubevest", "url": "https://cubevest.com", "image": "/assets/projects/cubevest.png"},
         {"id": 3, "name": "I Data", "url": "https://idata.softinventsolutions.com/", "image": "/assets/projects/idata.png"},
         {"id": 4, "name": "Zero", "url": "https://e-zero.surge.sh/#/auth/login", "image": "/assets/projects/zero.png"},
         {"id": 5, "name": "Cast", "url": "http://https://cast.i.ng", "image": "/assets/projects/cast.png"}

@@ -1,0 +1,16 @@
+.articles {
+    overflow: hidden;
+    background-color: $base-alt-text;
+    border-radius: 0 25px 0 25px;
+    border-radius: 25px 0 25px 0;
+    padding: 30px 10px;
+    margin-bottom: $margin-box-bottom;
+
+    h3 {
+        color: $background-light;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Paradise';
+        text-decoration: underline;
+    }
+}

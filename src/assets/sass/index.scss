@@ -1,5 +1,6 @@
 @import './variables/fonts.scss';
 @import './variables/color.scss';
+@import './variables/sizes.scss';
 
 html {
     margin: 0;
@@ -28,3 +29,6 @@ a {
 }
 
 @import './sections/header.scss';
+@import './sections/self-explanation.scss';
+@import './sections/projects.scss';
+@import './sections/articles.scss';

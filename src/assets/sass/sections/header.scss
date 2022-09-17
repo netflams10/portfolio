@@ -1,8 +1,9 @@
 @import '../components/navbar.scss';
 
 .header-container {
-    border-radius: 20px 0 10px 0;
-    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 25px 0 25px 0;
+    margin-bottom: $margin-box-bottom;
     background-color: $background-light;
     background-image: url('assets/svgs/wave.svg');
     background-repeat: no-repeat;

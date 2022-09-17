@@ -1,22 +1,19 @@
 <template>
   <div class="projects">
+    <h1>Projects</h1>
     <Carousel v-if="projects.length > 0" :items-to-show="3" :wrap-around="true" :transition="0">
       <Slide v-for="project in projects" :key="project.id">
-        <div class="carousel__item row">
-          <div class="col-4 bg-dark carousel__item-container">
-            <img :src="project.image" :alt="project.name" width="100%" class="col-12 carousel__item__image" />
+        <div class="carousel__item">
+          <div class="carousel__item-container">
+            <img :src="project.image" :alt="project.name" class="carousel__item__image" />
           </div>
           <div class="carousel__item__info">
-            <div>
               <span>{{project.name}}</span>
-            </div>
-            <div>
               <a :href="project.url" target="__blank">
                 <button type="button" class="more__button">
                   More...
                 </button>
               </a>
-            </div>
           </div>
         </div>
       </Slide>
@@ -40,7 +37,7 @@
 </script>
 
 <style scoped>
-  .projects {
+  /* .projects {
     padding: 20px 0;
   }
   .carousel__item {
@@ -57,5 +54,5 @@
   }
   .carousel__item__image {
     height: 100%;
-  }
+  } */
 </style>

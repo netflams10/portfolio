@@ -1,0 +1,61 @@
+.projects {
+    overflow: hidden;
+    background-color: $background-light;
+    border-radius: 0 25px 0 25px;
+    border-radius: 25px 0 25px 0;
+    padding: 30px 10px;
+    margin-bottom: $margin-box-bottom;
+
+    .carousel__item {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        position: relative;
+        margin: 0 5px;
+
+        .carousel__item-container {
+            height: inherit;
+            .carousel__item__image {
+                width: inherit;
+                height: inherit;
+                object-fit: contain;
+            }
+        }
+        .carousel__item__info {
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+
+            span{
+                display: block;
+                font-weight: bold;
+                font-size: 20px;
+                font-family: 'PermanentMarker';
+            }
+            a {
+                text-decoration: none;
+
+                :hover {
+                    cursor: pointer;
+                }
+
+                .more__button {
+                    border: none;
+                    outline: none;
+                    color: $background-light;
+                    background-color: $base-color;
+                    padding: 7px 20px;
+                }
+            }
+        }
+    }
+
+    h1 {
+        color: $base-alt-text;
+        font-family: 'Paradise';
+        text-align: center;
+        font-size: 45px;
+        text-decoration: underline;
+    }
+}

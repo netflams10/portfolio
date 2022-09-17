@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h3>Will be available Soon</h3>
+  <div class="articles">
+    <h3>(Articles) --> Will be available Soon</h3>
   </div>
 </template>
 
@@ -11,10 +11,10 @@
 </script>
 
 <style scoped>
-  h3 {
+  /* h3 {
     text-align: center;
     color: white;
     font-size: 30px;
     font-weight: bolder;
-  }
+  } */
 </style>
