@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light main-container">
+  <div class="bg-light main-container" v-motion-slide-visible-once-right>
     <NavbarComponent />
     <div class="header-container row">
       <div class="col-7">

@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <Carousel :items-to-show="3" :wrap-around="true" transition="0">
+    <Carousel v-if="projects.length > 0" :items-to-show="3" :wrap-around="true" :transition="0">
       <Slide v-for="project in projects" :key="project.id">
         <div class="carousel__item row">
           <div class="col-4 bg-dark carousel__item-container">
@@ -21,34 +21,21 @@
         </div>
       </Slide>
     </Carousel>
+    <div v-else></div>
   </div>
 </template>
 
 <script>
   import 'vue3-carousel/dist/carousel.css';
   import { Carousel, Slide } from "vue3-carousel";
-
-  // projects
-  import cubevest from '../assets/projects/cubevest.png'
-  import idata from '../assets/projects/idata.png'
-  import zero from '../assets/projects/zero.png'
-  import cast from '../assets/projects/cast.png'
-  import jamborow from '../assets/projects/jamborow.png'
+  import { mapState } from 'vuex'
 
   export default {
     name: 'ProjectsComponent',
     components: { Carousel, Slide },
-    data () {
-      return {
-        projects: [
-          {id: 1, name: 'Jamborow', url: 'https://jamborow.co.uk/', image: jamborow},
-          {id: 1, name: 'Cubevest', url: 'http://cubevest.com', image: cubevest},
-          {id: 1, name: 'I Data', url: 'https://idata.softinventsolutions.com/', image: idata},
-          {id: 1, name: 'Zero', url: 'https://e-zero.surge.sh/#/auth/login', image: zero},
-          {id: 1, name: 'Cast', url: 'http://https://cast.i.ng', image: cast},
-        ]
-      }
-    }
+    computed: mapState({
+      projects: state => state.projects
+    })
   }
 </script>
 

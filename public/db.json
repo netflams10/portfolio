@@ -1,0 +1,37 @@
+{
+    "name": "Opeyemi Segun",
+    "title": "Web Developer",
+    "logo": "/assets/logo/log.png",
+    "stacks": [
+        {"id": 1, "name": "CSS", "image": "/assets/languages/css3.png"},
+        {"id": 2, "name": "Docker", "image": "/assets/languages/docker.png"},
+        {"id": 3, "name": "HTML", "image": "/assets/languages/html.png"},
+        {"id": 4, "name": "JavaScript", "image": "/assets/languages/js.png"},
+        {"id": 5, "name": "MYSQL", "image": "/assets/languages/mysql.png"},
+        {"id": 6, "name": "POSTGRES", "image": "/assets/languages/postgres.png"},
+        {"id": 7, "name": "Nodejs", "image": "/assets/languages/nodejs.png"},
+        {"id": 8, "name": "PHP", "image": "/assets/languages/php.png"},
+        {"id": 9, "name": "python", "image": "/assets/languages/python.png"},
+        {"id": 10, "name": "React Native", "image": "/assets/languages/react-native.png"},
+        {"id": 11, "name": "TypeScript", "image": "/assets/languages/ts.png"},
+        {"id": 12, "name": "Vue", "image": "/assets/languages/vue.png"}
+    ],
+    "projects": [
+        {"id": 1, "name": "Jamborow", "url": "https://jamborow.co.uk/", "image": "/assets/projects/jamborow.png"},
+        {"id": 2, "name": "Cubevest", "url": "http://cubevest.com", "image": "/assets/projects/cubevest.png"},
+        {"id": 3, "name": "I Data", "url": "https://idata.softinventsolutions.com/", "image": "/assets/projects/idata.png"},
+        {"id": 4, "name": "Zero", "url": "https://e-zero.surge.sh/#/auth/login", "image": "/assets/projects/zero.png"},
+        {"id": 5, "name": "Cast", "url": "http://https://cast.i.ng", "image": "/assets/projects/cast.png"}
+    ],
+    "contacts": [
+        {"id": 1, "name": "Github", "icon": "github", "url": "https://github.com/netflams10"},
+        {"id": 2, "name": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/in/opeyemi-amusan-b0a2a8152/"},
+        {"id": 3, "name": "Twitter", "icon": "twitter", "url": "https://twitter.com/segunflams"},
+        {"id": 4, "name": "Email", "icon": "mail", "url": "mailto:name@segope44@gmail.com"}
+    ],
+    "testimonials": [
+        {"id": 1, "name": "JobberMan SoftSkills", "url": "/asset/certificates/jobberman.pdf"},
+        {"id": 2, "name": "Business Foundation", "url": "/asset/certificates/business_foundation.pdf"},
+        {"id": 3, "name": "Team Work and Building", "url": "/asset/certificates/team_work_building.pdf"}
+    ]
+}
