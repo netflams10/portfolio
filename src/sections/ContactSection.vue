@@ -1,50 +1,45 @@
 <template>
-  <div class="row form-container">
-    <div class=" col-6 form-container__form">
-      <h4 class="form-container__header">Send me a message!</h4>
-      <span>Got a question or proposal, or just want to say hello? Go ahead.</span>
-      <div>
-        <form>
-          <form action="https://formspree.io/f/mgeqorgr" method="POST">
-            <div class="row">
-              <div class="col-md-6">
-                <label>
-                  Your Name:
-                </label>
-                <input type="email" name="email">
-              </div>
-              <div class="col-md-6">
-                <label>
-                  Your email:
-                </label>
-                <input type="email" name="email">
-              </div>
+  <div class="contact">
+    <span class="header">Send me a message!</span>
+    <span class="sub-header">Got a question or proposal, or just want to say hello? Go ahead.</span>
+      <form action="https://formspree.io/f/mgeqorgr" method="POST" class="form-container">
+          <div class="self-info">
+            <div class="self-info_container">
+              <label>
+                Your Name:
+              </label>
+              <input type="email" name="email" placeholder="Enter Name">
             </div>
-            
-            <div>
+            <div class="self-info_container">
+              <label>
+                Your email:
+              </label>
+              <input type="email" name="email" placeholder="Enter email">
+            </div>
+          </div>
+          <div class="textarea-container">
+            <div class="textarea-container__input">
               <label>
                 Your message:
               </label>
-              <textarea name="message"></textarea>
+              <textarea name="message" placeholder="Enter Message"></textarea>
             </div>
+          </div>
 
-            <div>
-              <button type="submit" class="submit-button">
-                <div class="submit-button__button">
-                  <vue-feather type="arrow-right" class="footer__icons" />
-                  <span>Now</span>
-                </div>
-              </button>
-            </div>
-          </form>
-        </form>
-      </div>
-    </div>
+          <div class="button_container">
+            <button type="submit">
+              <div class="submit-button__button">
+                <vue-feather type="arrow-right" class="footer__icons" />
+                <span>Send Now</span>
+              </div>
+            </button>
+          </div>
+      </form>
   </div>
 </template>
 
 <style scoped>
-  .form-container {
+  /* .form-container {
     justify-content: center;
     align-items: center;
     padding: 40px 0;
@@ -65,5 +60,5 @@
     justify-content: center;
     align-items: center;
     color: white
-  }
+  } */
 </style>

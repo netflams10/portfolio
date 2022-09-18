@@ -1,12 +1,15 @@
 <template>
+  <div class="my-stacks">
+    <h3>Stacks</h3>
     <Carousel v-if="stacks.length > 0" :autoplay="3000" :items-to-show="4" :wrap-around="true" :transition="300">
       <Slide v-for="stack in stacks" :key="stack.id">
         <div class="carousel__item">
-          <img :src="stack.image" :alt="stack.name" width="100" height="100" />
+          <img :src="stack.image" :alt="stack.name" class="carousel__item-image" />
         </div>
       </Slide>
     </Carousel>
     <div v-else></div>
+  </div>
 </template>
 
 <script>
@@ -24,12 +27,4 @@
 </script>
 
 <style>
-  .carousel__item {
-    overflow: hidden;
-    min-height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 </style>

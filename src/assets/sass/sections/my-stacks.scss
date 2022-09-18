@@ -1,0 +1,45 @@
+.my-stacks {
+    overflow: hidden;
+    background-color: $background-light;
+    border-radius: 0 25px 0 25px;
+    border-radius: 25px 0 25px 0;
+    padding: 30px 10px;
+    margin-bottom: $margin-box-bottom;
+
+    .carousel__item {
+        margin: 0 10px;
+        flex: 1;
+        min-height: 100px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: 1px solid $white-denser;
+        background-color: $closer-white;
+        
+        .carousel__item-image {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            padding: 40px 30px;
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            background-color: $background-light;
+        }
+        :hover {
+            bottom: 0;
+            left: 0,
+        }
+
+    }
+
+    h3 {
+        color: $base-text;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Paradise';
+        text-decoration: underline;
+    }
+}

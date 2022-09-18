@@ -8,14 +8,18 @@
 
     .carousel__item {
         flex: 1;
+        display: flex;
         justify-content: center;
         align-items: center;
         height: 300px;
         position: relative;
         margin: 0 5px;
+        width: 35%;
+        overflow: hidden;
 
         .carousel__item-container {
             height: inherit;
+
             .carousel__item__image {
                 width: inherit;
                 height: inherit;

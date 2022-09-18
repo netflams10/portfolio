@@ -1,0 +1,82 @@
+.contact {
+    overflow: hidden;
+    background-color: $base-alt-text;
+    border-radius: 0 25px 0 25px ;
+    padding: 30px 10px;
+    margin-bottom: $margin-box-bottom;
+
+    .form-container {
+        width: 100%;
+        margin: 20px auto;
+        margin-top: 30px;
+        
+        .self-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            
+            .self-info_container {
+                margin-right: 10px;
+            }
+        }
+
+        .textarea-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .textarea-container__input {
+                width: inherit;
+
+                textarea {
+                    width: inherit;
+                    height: 150px;
+                    width: 400px;
+                    font-size: 15px;
+                    resize: none;
+                }
+            }
+        }
+
+        .button_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0;
+            button {
+                padding: 10px 30px;
+                cursor: pointer;
+                color: $background-light;
+                background-color: $success;
+                font-size: 20px;
+                font-family: 'Anthony Hunter';
+
+                .submit-button__button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .header {
+        color: $background-light;
+        font-size: 35px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Paradise';
+        text-decoration: underline;
+        display: block;
+    }
+
+    .sub-header {
+        color: $background-light;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Paradise';
+        display: block;
+    }
+}

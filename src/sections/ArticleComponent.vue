@@ -11,10 +11,4 @@
 </script>
 
 <style scoped>
-  /* h3 {
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    font-weight: bolder;
-  } */
 </style>

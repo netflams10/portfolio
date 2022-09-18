@@ -28,7 +28,28 @@ a {
     }
 }
 
+input, textarea {
+    border: none;
+    font-size: 17px;
+    display: block;
+    padding: 10px 15px;
+    outline: none;
+}
+
+label {
+    font-size: 16px;
+    font-family: 'PermanentMarker';
+}
+
+button {
+    border: none;
+    display: block;
+    outline: none;
+}
+
 @import './sections/header.scss';
 @import './sections/self-explanation.scss';
 @import './sections/projects.scss';
 @import './sections/articles.scss';
+@import './sections/my-stacks.scss';
+@import './sections/contact.scss';
