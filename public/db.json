@@ -33,5 +33,9 @@
         {"id": 1, "name": "JobberMan SoftSkills", "url": "/asset/certificates/jobberman.pdf"},
         {"id": 2, "name": "Business Foundation", "url": "/asset/certificates/business_foundation.pdf"},
         {"id": 3, "name": "Team Work and Building", "url": "/asset/certificates/team_work_building.pdf"}
+    ],
+    "badges": [
+        {"id": 1, "course": "CyberSecurity Intro", "name": "IBM Digital - Nation", "image": "/assets/badges/cyber-security.png", "url": "/asset/certificates/jobberman.pdf"},
+        {"id": 1, "course": "Getting Started with Storage", "name": "AWS Educate", "image": "/assets/badges/aws-starting-storage.png", "url": "/asset/certificates/jobberman.pdf"}
     ]
 }
