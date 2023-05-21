@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact" v-motion-slide-visible-once-left>
     <span class="header">Send me a message!</span>
     <span class="sub-header">Got a question or proposal, or just want to say hello? Go ahead.</span>
       <form action="https://formspree.io/f/mgeqorgr" method="POST" class="form-container">

@@ -17,11 +17,13 @@
         {"id": 12, "name": "Vue", "image": "/assets/languages/vue.png"}
     ],
     "projects": [
+        {"id": 7, "name": "25th & Staffing", "url": "https://www.25thandstaffing.com/", "image": "/assets/projects/25thandStaffing.png"},
+        {"id": 6, "name": "Corporate Setup", "url": "https://corporate-setup.app/", "image": "/assets/projects/corporate-data.png"},
         {"id": 1, "name": "Jamborow", "url": "https://jamborow.co.uk/", "image": "/assets/projects/jamborow.png"},
         {"id": 2, "name": "Cubevest", "url": "https://cubevest.com", "image": "/assets/projects/cubevest.png"},
         {"id": 3, "name": "I Data", "url": "https://idata.softinventsolutions.com/", "image": "/assets/projects/idata.png"},
         {"id": 4, "name": "Zero", "url": "https://e-zero.surge.sh/#/auth/login", "image": "/assets/projects/zero.png"},
-        {"id": 5, "name": "Cast", "url": "http://https://cast.i.ng", "image": "/assets/projects/cast.png"}
+        {"id": 5, "name": "Cast", "url": "https://cast.i.ng", "image": "/assets/projects/cast.png"}
     ],
     "contacts": [
         {"id": 1, "name": "Github", "icon": "github", "url": "https://github.com/netflams10"},

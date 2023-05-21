@@ -1,6 +1,6 @@
 <template>
-  <div class="projects">
-    <h1>Projects</h1>
+  <div class="projects" v-motion-slide-visible-once-left>
+    <h1 class="text-opacity-50 text-[blue]">Projects</h1>
     <Carousel v-if="projects.length > 0" :items-to-show="3" :wrap-around="true" :transition="0">
       <Slide v-for="project in projects" :key="project.id">
         <div class="carousel__item">
@@ -8,11 +8,9 @@
             <img :src="project.image" :alt="project.name" class="carousel__item__image" />
           </div>
           <div class="carousel__item__info">
-              <span>{{project.name}}</span>
-              <a :href="project.url" target="__blank">
-                <button type="button" class="more__button">
-                  More...
-                </button>
+              <!-- <span>{{project.name}}</span> -->
+              <a :href="project.url" target="__blank" class="bg-[blue] bg-opacity-50 cursor-pointer px-5 py-2 text-[white] rounded-md font-bold">
+                Visit {{ project.name }}
               </a>
           </div>
         </div>
@@ -37,22 +35,4 @@
 </script>
 
 <style scoped>
-  /* .projects {
-    padding: 20px 0;
-  }
-  .carousel__item {
-    display: flex;
-    flex-direction: column;
-  }
-  .carousel__item-container {
-    width: 100%;
-    height: 350px;
-  }
-  .carousel__item__info {
-    background-color: yellow;
-    position: absolute;
-  }
-  .carousel__item__image {
-    height: 100%;
-  } */
 </style>

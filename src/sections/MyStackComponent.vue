@@ -1,5 +1,5 @@
 <template>
-  <div class="my-stacks">
+  <div class="my-stacks" v-motion-slide-visible-once-right>
     <h3>Stacks</h3>
     <Carousel v-if="stacks.length > 0" :autoplay="3000" :items-to-show="4" :wrap-around="true" :transition="300">
       <Slide v-for="stack in stacks" :key="stack.id">

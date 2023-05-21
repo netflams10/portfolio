@@ -4,12 +4,12 @@
     <hr />
     <div class="header-container__container">
       <div class="l-column column">
-        <span class="headings">Web Developer</span>
-        <span class="sub-headings">I like to craft solid and scalable frontend products with great user experiences.</span>
+        <span class="headings text-[32px] text-success">Web Developer</span>
+        <span class="sub-headings">I like to build solid and scalable products with great user experiences.</span>
 
         <div class="header-footer">
-          <span>Highly skilled at progressive enhancement, design systems & UI Engineering.</span>
-          <span>Over a decade of experience building products for clients across several countries.</span>
+          <span>Highly skilled at backend api, design systems & UI Engineering.</span>
+          <span>Over a 2 years of experience building products.</span>
         </div>
       </div>
 
